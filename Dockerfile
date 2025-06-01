@@ -10,5 +10,6 @@ WORKDIR /usr/src/app
 COPY . ./
 
 EXPOSE 3001
+EXPOSE 8080
 
 CMD ["tail", "-f", "/dev/null"]
