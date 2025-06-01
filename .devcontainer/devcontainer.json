@@ -1,0 +1,9 @@
+{
+  "name": "Layer Edge - Light Node",
+  "build": {
+    "context": "..",
+    "dockerfile": "../Dockerfile"
+  },
+  "runArgs": ["--network=host", "--memory=2g", "--cpus=0.2"],
+  "postCreateCommand": "./scripts/setup.sh"
+}
