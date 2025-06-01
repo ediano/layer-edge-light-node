@@ -53,3 +53,6 @@ __debug_bin
 
 # Air live reload
 tmp/
+
+# files
+light-node
